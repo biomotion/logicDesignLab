@@ -1,0 +1,54 @@
+$date
+	Thu Oct 25 14:33:11 2018
+$end
+$version
+	ModelSim Version 10.3c
+$end
+$timescale
+	1ps
+$end
+
+$scope module testbed $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # c $end
+
+$scope module simutest $end
+$var wire 1 # c $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x!
+x"
+x#
+x%
+x$
+$end
+#1000
+0!
+0"
+0$
+0%
+0#
+#3000
+1"
+1%
+#6000
+1!
+0"
+1$
+0%
+#10000
+1"
+1%
+1#
+#110000
+0!
+0"
+0$
+0%
+0#

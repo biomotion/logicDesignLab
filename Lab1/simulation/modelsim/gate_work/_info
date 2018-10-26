@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/Lab1/simulation/modelsim
+vcarryLookahead
+Z1 !s110 1540449029
+!i10b 1
+!s100 SEKlbDCaHViSLbT9fJeWK1
+IakP4Y;ABX;@YRlM_dQAgU1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1540449021
+8carryLookahead.vo
+FcarryLookahead.vo
+L0 32
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1540449029.272000
+!s107 carryLookahead.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|carryLookahead.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+ncarry@lookahead
+vtestbench
+R1
+!i10b 1
+!s100 J<zH_1d[zJ1NTUB5FU0GT1
+IPH?UILI0X_A65iD=b[A141
+R2
+R0
+w1540448831
+8D:/altera_project/Lab1/testbench.v
+FD:/altera_project/Lab1/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1540449029.536000
+!s107 D:/altera_project/Lab1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/Lab1|D:/altera_project/Lab1/testbench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/altera_project/Lab1
