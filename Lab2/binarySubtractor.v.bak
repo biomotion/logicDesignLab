@@ -1,0 +1,11 @@
+module binarySubtractor(S, c, v, A, B, m);
+output [4:0] S;
+output c, v;
+input [4:0] A, B;
+input m;
+
+initial begin
+	
+end
+
+endmodule 

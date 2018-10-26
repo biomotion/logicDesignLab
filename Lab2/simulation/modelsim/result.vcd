@@ -1,0 +1,1391 @@
+$date
+	Fri Oct 26 15:20:59 2018
+$end
+$version
+	ModelSim Version 10.3c
+$end
+$timescale
+	1ps
+$end
+
+$scope module testbench $end
+$var reg 5 ! A [4:0] $end
+$var reg 5 " B [4:0] $end
+$var reg 1 # m $end
+$var wire 1 $ S [4] $end
+$var wire 1 % S [3] $end
+$var wire 1 & S [2] $end
+$var wire 1 ' S [1] $end
+$var wire 1 ( S [0] $end
+$var wire 1 ) c $end
+$var wire 1 * v $end
+
+$scope module bs $end
+$var wire 1 $ S [4] $end
+$var wire 1 % S [3] $end
+$var wire 1 & S [2] $end
+$var wire 1 ' S [1] $end
+$var wire 1 ( S [0] $end
+$var wire 1 ) c $end
+$var wire 1 * v $end
+$var wire 1 + A [4] $end
+$var wire 1 , A [3] $end
+$var wire 1 - A [2] $end
+$var wire 1 . A [1] $end
+$var wire 1 / A [0] $end
+$var wire 1 0 B [4] $end
+$var wire 1 1 B [3] $end
+$var wire 1 2 B [2] $end
+$var wire 1 3 B [1] $end
+$var wire 1 4 B [0] $end
+$var wire 1 5 m $end
+$var wire 1 6 gnd $end
+$var wire 1 7 vcc $end
+$var wire 1 8 unknown $end
+$var tri1 1 9 devclrn $end
+$var tri1 1 : devpor $end
+$var tri1 1 ; devoe $end
+$var wire 1 < A[0]~input_o $end
+$var wire 1 = A[1]~input_o $end
+$var wire 1 > A[2]~input_o $end
+$var wire 1 ? A[3]~input_o $end
+$var wire 1 @ A[4]~input_o $end
+$var wire 1 A B[4]~input_o $end
+$var wire 1 B S[0]~output_o $end
+$var wire 1 C S[1]~output_o $end
+$var wire 1 D S[2]~output_o $end
+$var wire 1 E S[3]~output_o $end
+$var wire 1 F S[4]~output_o $end
+$var wire 1 G c~output_o $end
+$var wire 1 H v~output_o $end
+$var wire 1 I B[0]~input_o $end
+$var wire 1 J m~input_o $end
+$var wire 1 K fullAdder2|s~0_combout $end
+$var wire 1 L B[1]~input_o $end
+$var wire 1 M fullAdder3|s~0_combout $end
+$var wire 1 N B[2]~input_o $end
+$var wire 1 O fullAdder4|s~0_combout $end
+$var wire 1 P B[3]~input_o $end
+$var wire 1 Q fullAdder4|cout~0_combout $end
+$var wire 1 R v~0_combout $end
+
+$scope module S[0]~output $end
+$var parameter 40 S open_drain_output $end
+$var parameter 40 T bus_hold $end
+$var parameter 136 U lpm_type $end
+$var wire 1 6 i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 V seriesterminationcontrol [15] $end
+$var wire 1 W seriesterminationcontrol [14] $end
+$var wire 1 X seriesterminationcontrol [13] $end
+$var wire 1 Y seriesterminationcontrol [12] $end
+$var wire 1 Z seriesterminationcontrol [11] $end
+$var wire 1 [ seriesterminationcontrol [10] $end
+$var wire 1 \ seriesterminationcontrol [9] $end
+$var wire 1 ] seriesterminationcontrol [8] $end
+$var wire 1 ^ seriesterminationcontrol [7] $end
+$var wire 1 _ seriesterminationcontrol [6] $end
+$var wire 1 ` seriesterminationcontrol [5] $end
+$var wire 1 a seriesterminationcontrol [4] $end
+$var wire 1 b seriesterminationcontrol [3] $end
+$var wire 1 c seriesterminationcontrol [2] $end
+$var wire 1 d seriesterminationcontrol [1] $end
+$var wire 1 e seriesterminationcontrol [0] $end
+$var wire 1 B o $end
+$var wire 1 f obar $end
+$var reg 1 g out_tmp $end
+$var reg 1 h out_tmp_bar $end
+$var reg 1 i prev_value $end
+$var wire 1 j tmp $end
+$var wire 1 k tmp_bar $end
+$var wire 1 l tmp1 $end
+$var wire 1 m tmp1_bar $end
+$upscope $end
+
+$scope module S[1]~output $end
+$var parameter 40 n open_drain_output $end
+$var parameter 40 o bus_hold $end
+$var parameter 136 p lpm_type $end
+$var wire 1 q i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 r seriesterminationcontrol [15] $end
+$var wire 1 s seriesterminationcontrol [14] $end
+$var wire 1 t seriesterminationcontrol [13] $end
+$var wire 1 u seriesterminationcontrol [12] $end
+$var wire 1 v seriesterminationcontrol [11] $end
+$var wire 1 w seriesterminationcontrol [10] $end
+$var wire 1 x seriesterminationcontrol [9] $end
+$var wire 1 y seriesterminationcontrol [8] $end
+$var wire 1 z seriesterminationcontrol [7] $end
+$var wire 1 { seriesterminationcontrol [6] $end
+$var wire 1 | seriesterminationcontrol [5] $end
+$var wire 1 } seriesterminationcontrol [4] $end
+$var wire 1 ~ seriesterminationcontrol [3] $end
+$var wire 1 !! seriesterminationcontrol [2] $end
+$var wire 1 "! seriesterminationcontrol [1] $end
+$var wire 1 #! seriesterminationcontrol [0] $end
+$var wire 1 C o $end
+$var wire 1 $! obar $end
+$var reg 1 %! out_tmp $end
+$var reg 1 &! out_tmp_bar $end
+$var reg 1 '! prev_value $end
+$var wire 1 (! tmp $end
+$var wire 1 )! tmp_bar $end
+$var wire 1 *! tmp1 $end
+$var wire 1 +! tmp1_bar $end
+$upscope $end
+
+$scope module S[2]~output $end
+$var parameter 40 ,! open_drain_output $end
+$var parameter 40 -! bus_hold $end
+$var parameter 136 .! lpm_type $end
+$var wire 1 /! i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 0! seriesterminationcontrol [15] $end
+$var wire 1 1! seriesterminationcontrol [14] $end
+$var wire 1 2! seriesterminationcontrol [13] $end
+$var wire 1 3! seriesterminationcontrol [12] $end
+$var wire 1 4! seriesterminationcontrol [11] $end
+$var wire 1 5! seriesterminationcontrol [10] $end
+$var wire 1 6! seriesterminationcontrol [9] $end
+$var wire 1 7! seriesterminationcontrol [8] $end
+$var wire 1 8! seriesterminationcontrol [7] $end
+$var wire 1 9! seriesterminationcontrol [6] $end
+$var wire 1 :! seriesterminationcontrol [5] $end
+$var wire 1 ;! seriesterminationcontrol [4] $end
+$var wire 1 <! seriesterminationcontrol [3] $end
+$var wire 1 =! seriesterminationcontrol [2] $end
+$var wire 1 >! seriesterminationcontrol [1] $end
+$var wire 1 ?! seriesterminationcontrol [0] $end
+$var wire 1 D o $end
+$var wire 1 @! obar $end
+$var reg 1 A! out_tmp $end
+$var reg 1 B! out_tmp_bar $end
+$var reg 1 C! prev_value $end
+$var wire 1 D! tmp $end
+$var wire 1 E! tmp_bar $end
+$var wire 1 F! tmp1 $end
+$var wire 1 G! tmp1_bar $end
+$upscope $end
+
+$scope module S[3]~output $end
+$var parameter 40 H! open_drain_output $end
+$var parameter 40 I! bus_hold $end
+$var parameter 136 J! lpm_type $end
+$var wire 1 K! i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 L! seriesterminationcontrol [15] $end
+$var wire 1 M! seriesterminationcontrol [14] $end
+$var wire 1 N! seriesterminationcontrol [13] $end
+$var wire 1 O! seriesterminationcontrol [12] $end
+$var wire 1 P! seriesterminationcontrol [11] $end
+$var wire 1 Q! seriesterminationcontrol [10] $end
+$var wire 1 R! seriesterminationcontrol [9] $end
+$var wire 1 S! seriesterminationcontrol [8] $end
+$var wire 1 T! seriesterminationcontrol [7] $end
+$var wire 1 U! seriesterminationcontrol [6] $end
+$var wire 1 V! seriesterminationcontrol [5] $end
+$var wire 1 W! seriesterminationcontrol [4] $end
+$var wire 1 X! seriesterminationcontrol [3] $end
+$var wire 1 Y! seriesterminationcontrol [2] $end
+$var wire 1 Z! seriesterminationcontrol [1] $end
+$var wire 1 [! seriesterminationcontrol [0] $end
+$var wire 1 E o $end
+$var wire 1 \! obar $end
+$var reg 1 ]! out_tmp $end
+$var reg 1 ^! out_tmp_bar $end
+$var reg 1 _! prev_value $end
+$var wire 1 `! tmp $end
+$var wire 1 a! tmp_bar $end
+$var wire 1 b! tmp1 $end
+$var wire 1 c! tmp1_bar $end
+$upscope $end
+
+$scope module S[4]~output $end
+$var parameter 40 d! open_drain_output $end
+$var parameter 40 e! bus_hold $end
+$var parameter 136 f! lpm_type $end
+$var wire 1 6 i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 g! seriesterminationcontrol [15] $end
+$var wire 1 h! seriesterminationcontrol [14] $end
+$var wire 1 i! seriesterminationcontrol [13] $end
+$var wire 1 j! seriesterminationcontrol [12] $end
+$var wire 1 k! seriesterminationcontrol [11] $end
+$var wire 1 l! seriesterminationcontrol [10] $end
+$var wire 1 m! seriesterminationcontrol [9] $end
+$var wire 1 n! seriesterminationcontrol [8] $end
+$var wire 1 o! seriesterminationcontrol [7] $end
+$var wire 1 p! seriesterminationcontrol [6] $end
+$var wire 1 q! seriesterminationcontrol [5] $end
+$var wire 1 r! seriesterminationcontrol [4] $end
+$var wire 1 s! seriesterminationcontrol [3] $end
+$var wire 1 t! seriesterminationcontrol [2] $end
+$var wire 1 u! seriesterminationcontrol [1] $end
+$var wire 1 v! seriesterminationcontrol [0] $end
+$var wire 1 F o $end
+$var wire 1 w! obar $end
+$var reg 1 x! out_tmp $end
+$var reg 1 y! out_tmp_bar $end
+$var reg 1 z! prev_value $end
+$var wire 1 {! tmp $end
+$var wire 1 |! tmp_bar $end
+$var wire 1 }! tmp1 $end
+$var wire 1 ~! tmp1_bar $end
+$upscope $end
+
+$scope module c~output $end
+$var parameter 40 !" open_drain_output $end
+$var parameter 40 "" bus_hold $end
+$var parameter 136 #" lpm_type $end
+$var wire 1 $" i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 %" seriesterminationcontrol [15] $end
+$var wire 1 &" seriesterminationcontrol [14] $end
+$var wire 1 '" seriesterminationcontrol [13] $end
+$var wire 1 (" seriesterminationcontrol [12] $end
+$var wire 1 )" seriesterminationcontrol [11] $end
+$var wire 1 *" seriesterminationcontrol [10] $end
+$var wire 1 +" seriesterminationcontrol [9] $end
+$var wire 1 ," seriesterminationcontrol [8] $end
+$var wire 1 -" seriesterminationcontrol [7] $end
+$var wire 1 ." seriesterminationcontrol [6] $end
+$var wire 1 /" seriesterminationcontrol [5] $end
+$var wire 1 0" seriesterminationcontrol [4] $end
+$var wire 1 1" seriesterminationcontrol [3] $end
+$var wire 1 2" seriesterminationcontrol [2] $end
+$var wire 1 3" seriesterminationcontrol [1] $end
+$var wire 1 4" seriesterminationcontrol [0] $end
+$var wire 1 G o $end
+$var wire 1 5" obar $end
+$var reg 1 6" out_tmp $end
+$var reg 1 7" out_tmp_bar $end
+$var reg 1 8" prev_value $end
+$var wire 1 9" tmp $end
+$var wire 1 :" tmp_bar $end
+$var wire 1 ;" tmp1 $end
+$var wire 1 <" tmp1_bar $end
+$upscope $end
+
+$scope module v~output $end
+$var parameter 40 =" open_drain_output $end
+$var parameter 40 >" bus_hold $end
+$var parameter 136 ?" lpm_type $end
+$var wire 1 @" i $end
+$var tri1 1 7 oe $end
+$var tri1 1 ; devoe $end
+$var wire 1 A" seriesterminationcontrol [15] $end
+$var wire 1 B" seriesterminationcontrol [14] $end
+$var wire 1 C" seriesterminationcontrol [13] $end
+$var wire 1 D" seriesterminationcontrol [12] $end
+$var wire 1 E" seriesterminationcontrol [11] $end
+$var wire 1 F" seriesterminationcontrol [10] $end
+$var wire 1 G" seriesterminationcontrol [9] $end
+$var wire 1 H" seriesterminationcontrol [8] $end
+$var wire 1 I" seriesterminationcontrol [7] $end
+$var wire 1 J" seriesterminationcontrol [6] $end
+$var wire 1 K" seriesterminationcontrol [5] $end
+$var wire 1 L" seriesterminationcontrol [4] $end
+$var wire 1 M" seriesterminationcontrol [3] $end
+$var wire 1 N" seriesterminationcontrol [2] $end
+$var wire 1 O" seriesterminationcontrol [1] $end
+$var wire 1 P" seriesterminationcontrol [0] $end
+$var wire 1 H o $end
+$var wire 1 Q" obar $end
+$var reg 1 R" out_tmp $end
+$var reg 1 S" out_tmp_bar $end
+$var reg 1 T" prev_value $end
+$var wire 1 U" tmp $end
+$var wire 1 V" tmp_bar $end
+$var wire 1 W" tmp1 $end
+$var wire 1 X" tmp1_bar $end
+$upscope $end
+
+$scope module B[0]~input $end
+$var parameter 40 Y" differential_mode $end
+$var parameter 40 Z" bus_hold $end
+$var parameter 8 [" simulate_z_as $end
+$var parameter 136 \" lpm_type $end
+$var wire 1 4 i $end
+$var wire 1 6 ibar $end
+$var wire 1 I o $end
+$var reg 1 ]" out_tmp $end
+$var reg 1 ^" o_tmp $end
+$var wire 1 _" out_val $end
+$var reg 1 `" prev_value $end
+$upscope $end
+
+$scope module m~input $end
+$var parameter 40 a" differential_mode $end
+$var parameter 40 b" bus_hold $end
+$var parameter 8 c" simulate_z_as $end
+$var parameter 136 d" lpm_type $end
+$var wire 1 5 i $end
+$var wire 1 6 ibar $end
+$var wire 1 J o $end
+$var reg 1 e" out_tmp $end
+$var reg 1 f" o_tmp $end
+$var wire 1 g" out_val $end
+$var reg 1 h" prev_value $end
+$upscope $end
+
+$scope module fullAdder2|s~0 $end
+$var parameter 16 i" lut_mask $end
+$var parameter 40 j" sum_lutc_input $end
+$var parameter 24 k" dont_touch $end
+$var parameter 160 l" lpm_type $end
+$var wire 1 6 dataa $end
+$var wire 1 6 datab $end
+$var wire 1 m" datac $end
+$var wire 1 n" datad $end
+$var wire 1 6 cin $end
+$var wire 1 K combout $end
+$var wire 1 o" cout $end
+$var reg 1 p" cout_tmp $end
+$var reg 1 q" combout_tmp $end
+$var reg 2 r" isum_lutc_input [1:0] $end
+$var wire 1 s" dataa_in $end
+$var wire 1 t" datab_in $end
+$var wire 1 u" datac_in $end
+$var wire 1 v" datad_in $end
+$var wire 1 w" cin_in $end
+
+$scope function lut4 $end
+$var reg 1 x" lut4 $end
+$var reg 16 y" mask [15:0] $end
+$var reg 1 z" dataa $end
+$var reg 1 {" datab $end
+$var reg 1 |" datac $end
+$var reg 1 }" datad $end
+$upscope $end
+$upscope $end
+
+$scope module B[1]~input $end
+$var parameter 40 ~" differential_mode $end
+$var parameter 40 !# bus_hold $end
+$var parameter 8 "# simulate_z_as $end
+$var parameter 136 ## lpm_type $end
+$var wire 1 3 i $end
+$var wire 1 6 ibar $end
+$var wire 1 L o $end
+$var reg 1 $# out_tmp $end
+$var reg 1 %# o_tmp $end
+$var wire 1 &# out_val $end
+$var reg 1 '# prev_value $end
+$upscope $end
+
+$scope module fullAdder3|s~0 $end
+$var parameter 16 (# lut_mask $end
+$var parameter 40 )# sum_lutc_input $end
+$var parameter 24 *# dont_touch $end
+$var parameter 160 +# lpm_type $end
+$var wire 1 ,# dataa $end
+$var wire 1 6 datab $end
+$var wire 1 6 datac $end
+$var wire 1 -# datad $end
+$var wire 1 6 cin $end
+$var wire 1 M combout $end
+$var wire 1 .# cout $end
+$var reg 1 /# cout_tmp $end
+$var reg 1 0# combout_tmp $end
+$var reg 2 1# isum_lutc_input [1:0] $end
+$var wire 1 2# dataa_in $end
+$var wire 1 3# datab_in $end
+$var wire 1 4# datac_in $end
+$var wire 1 5# datad_in $end
+$var wire 1 6# cin_in $end
+
+$scope function lut4 $end
+$var reg 1 7# lut4 $end
+$var reg 16 8# mask [15:0] $end
+$var reg 1 9# dataa $end
+$var reg 1 :# datab $end
+$var reg 1 ;# datac $end
+$var reg 1 <# datad $end
+$upscope $end
+$upscope $end
+
+$scope module B[2]~input $end
+$var parameter 40 =# differential_mode $end
+$var parameter 40 ># bus_hold $end
+$var parameter 8 ?# simulate_z_as $end
+$var parameter 136 @# lpm_type $end
+$var wire 1 2 i $end
+$var wire 1 6 ibar $end
+$var wire 1 N o $end
+$var reg 1 A# out_tmp $end
+$var reg 1 B# o_tmp $end
+$var wire 1 C# out_val $end
+$var reg 1 D# prev_value $end
+$upscope $end
+
+$scope module fullAdder4|s~0 $end
+$var parameter 16 E# lut_mask $end
+$var parameter 40 F# sum_lutc_input $end
+$var parameter 24 G# dont_touch $end
+$var parameter 160 H# lpm_type $end
+$var wire 1 6 dataa $end
+$var wire 1 I# datab $end
+$var wire 1 6 datac $end
+$var wire 1 J# datad $end
+$var wire 1 6 cin $end
+$var wire 1 O combout $end
+$var wire 1 K# cout $end
+$var reg 1 L# cout_tmp $end
+$var reg 1 M# combout_tmp $end
+$var reg 2 N# isum_lutc_input [1:0] $end
+$var wire 1 O# dataa_in $end
+$var wire 1 P# datab_in $end
+$var wire 1 Q# datac_in $end
+$var wire 1 R# datad_in $end
+$var wire 1 S# cin_in $end
+
+$scope function lut4 $end
+$var reg 1 T# lut4 $end
+$var reg 16 U# mask [15:0] $end
+$var reg 1 V# dataa $end
+$var reg 1 W# datab $end
+$var reg 1 X# datac $end
+$var reg 1 Y# datad $end
+$upscope $end
+$upscope $end
+
+$scope module B[3]~input $end
+$var parameter 40 Z# differential_mode $end
+$var parameter 40 [# bus_hold $end
+$var parameter 8 \# simulate_z_as $end
+$var parameter 136 ]# lpm_type $end
+$var wire 1 1 i $end
+$var wire 1 6 ibar $end
+$var wire 1 P o $end
+$var reg 1 ^# out_tmp $end
+$var reg 1 _# o_tmp $end
+$var wire 1 `# out_val $end
+$var reg 1 a# prev_value $end
+$upscope $end
+
+$scope module fullAdder4|cout~0 $end
+$var parameter 16 b# lut_mask $end
+$var parameter 40 c# sum_lutc_input $end
+$var parameter 24 d# dont_touch $end
+$var parameter 160 e# lpm_type $end
+$var wire 1 6 dataa $end
+$var wire 1 6 datab $end
+$var wire 1 f# datac $end
+$var wire 1 g# datad $end
+$var wire 1 6 cin $end
+$var wire 1 Q combout $end
+$var wire 1 h# cout $end
+$var reg 1 i# cout_tmp $end
+$var reg 1 j# combout_tmp $end
+$var reg 2 k# isum_lutc_input [1:0] $end
+$var wire 1 l# dataa_in $end
+$var wire 1 m# datab_in $end
+$var wire 1 n# datac_in $end
+$var wire 1 o# datad_in $end
+$var wire 1 p# cin_in $end
+
+$scope function lut4 $end
+$var reg 1 q# lut4 $end
+$var reg 16 r# mask [15:0] $end
+$var reg 1 s# dataa $end
+$var reg 1 t# datab $end
+$var reg 1 u# datac $end
+$var reg 1 v# datad $end
+$upscope $end
+$upscope $end
+
+$scope module v~0 $end
+$var parameter 16 w# lut_mask $end
+$var parameter 40 x# sum_lutc_input $end
+$var parameter 24 y# dont_touch $end
+$var parameter 160 z# lpm_type $end
+$var wire 1 6 dataa $end
+$var wire 1 {# datab $end
+$var wire 1 |# datac $end
+$var wire 1 }# datad $end
+$var wire 1 6 cin $end
+$var wire 1 R combout $end
+$var wire 1 ~# cout $end
+$var reg 1 !$ cout_tmp $end
+$var reg 1 "$ combout_tmp $end
+$var reg 2 #$ isum_lutc_input [1:0] $end
+$var wire 1 $$ dataa_in $end
+$var wire 1 %$ datab_in $end
+$var wire 1 &$ datac_in $end
+$var wire 1 '$ datad_in $end
+$var wire 1 ($ cin_in $end
+
+$scope function lut4 $end
+$var reg 1 )$ lut4 $end
+$var reg 16 *$ mask [15:0] $end
+$var reg 1 +$ dataa $end
+$var reg 1 ,$ datab $end
+$var reg 1 -$ datac $end
+$var reg 1 .$ datad $end
+$upscope $end
+$upscope $end
+
+$scope module A[0]~input $end
+$var parameter 40 /$ differential_mode $end
+$var parameter 40 0$ bus_hold $end
+$var parameter 8 1$ simulate_z_as $end
+$var parameter 136 2$ lpm_type $end
+$var wire 1 / i $end
+$var wire 1 6 ibar $end
+$var wire 1 < o $end
+$var reg 1 3$ out_tmp $end
+$var reg 1 4$ o_tmp $end
+$var wire 1 5$ out_val $end
+$var reg 1 6$ prev_value $end
+$upscope $end
+
+$scope module A[1]~input $end
+$var parameter 40 7$ differential_mode $end
+$var parameter 40 8$ bus_hold $end
+$var parameter 8 9$ simulate_z_as $end
+$var parameter 136 :$ lpm_type $end
+$var wire 1 . i $end
+$var wire 1 6 ibar $end
+$var wire 1 = o $end
+$var reg 1 ;$ out_tmp $end
+$var reg 1 <$ o_tmp $end
+$var wire 1 =$ out_val $end
+$var reg 1 >$ prev_value $end
+$upscope $end
+
+$scope module A[2]~input $end
+$var parameter 40 ?$ differential_mode $end
+$var parameter 40 @$ bus_hold $end
+$var parameter 8 A$ simulate_z_as $end
+$var parameter 136 B$ lpm_type $end
+$var wire 1 - i $end
+$var wire 1 6 ibar $end
+$var wire 1 > o $end
+$var reg 1 C$ out_tmp $end
+$var reg 1 D$ o_tmp $end
+$var wire 1 E$ out_val $end
+$var reg 1 F$ prev_value $end
+$upscope $end
+
+$scope module A[3]~input $end
+$var parameter 40 G$ differential_mode $end
+$var parameter 40 H$ bus_hold $end
+$var parameter 8 I$ simulate_z_as $end
+$var parameter 136 J$ lpm_type $end
+$var wire 1 , i $end
+$var wire 1 6 ibar $end
+$var wire 1 ? o $end
+$var reg 1 K$ out_tmp $end
+$var reg 1 L$ o_tmp $end
+$var wire 1 M$ out_val $end
+$var reg 1 N$ prev_value $end
+$upscope $end
+
+$scope module A[4]~input $end
+$var parameter 40 O$ differential_mode $end
+$var parameter 40 P$ bus_hold $end
+$var parameter 8 Q$ simulate_z_as $end
+$var parameter 136 R$ lpm_type $end
+$var wire 1 + i $end
+$var wire 1 6 ibar $end
+$var wire 1 @ o $end
+$var reg 1 S$ out_tmp $end
+$var reg 1 T$ o_tmp $end
+$var wire 1 U$ out_val $end
+$var reg 1 V$ prev_value $end
+$upscope $end
+
+$scope module B[4]~input $end
+$var parameter 40 W$ differential_mode $end
+$var parameter 40 X$ bus_hold $end
+$var parameter 8 Y$ simulate_z_as $end
+$var parameter 136 Z$ lpm_type $end
+$var wire 1 0 i $end
+$var wire 1 6 ibar $end
+$var wire 1 A o $end
+$var reg 1 [$ out_tmp $end
+$var reg 1 \$ o_tmp $end
+$var wire 1 ]$ out_val $end
+$var reg 1 ^$ prev_value $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+0g
+1h
+0i
+x%!
+x&!
+0'!
+xA!
+xB!
+0C!
+x]!
+x^!
+0_!
+0x!
+1y!
+0z!
+x6"
+x7"
+08"
+xR"
+xS"
+0T"
+0]"
+0^"
+0`"
+0e"
+0f"
+0h"
+0p"
+xq"
+b0 r"
+0x"
+b11110000 y"
+0z"
+0{"
+0|"
+0}"
+0$#
+0%#
+0'#
+x/#
+x0#
+b0 1#
+x7#
+b10101010 8#
+x9#
+0:#
+0;#
+0<#
+0A#
+0B#
+0D#
+0L#
+xM#
+b0 N#
+0T#
+b11001100000000 U#
+0V#
+xW#
+0X#
+0Y#
+0^#
+0_#
+0a#
+0i#
+xj#
+b0 k#
+0q#
+b1111111111110000 r#
+0s#
+0t#
+0u#
+0v#
+0!$
+x"$
+b0 #$
+0)$
+b1100110000 *$
+0+$
+x,$
+0-$
+0.$
+03$
+04$
+06$
+0;$
+0<$
+0>$
+0C$
+0D$
+0F$
+0K$
+0L$
+0N$
+0S$
+0T$
+0V$
+0[$
+0\$
+0^$
+b11110000 i"
+b10101010 (#
+b11001100000000 E#
+b1111111111110000 b#
+b1100110000 w#
+b110011001100001011011000111001101100101 S
+b110011001100001011011000111001101100101 T
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 U
+b110011001100001011011000111001101100101 n
+b110011001100001011011000111001101100101 o
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 p
+b110011001100001011011000111001101100101 ,!
+b110011001100001011011000111001101100101 -!
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 .!
+b110011001100001011011000111001101100101 H!
+b110011001100001011011000111001101100101 I!
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 J!
+b110011001100001011011000111001101100101 d!
+b110011001100001011011000111001101100101 e!
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 f!
+b110011001100001011011000111001101100101 !"
+b110011001100001011011000111001101100101 ""
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 #"
+b110011001100001011011000111001101100101 ="
+b110011001100001011011000111001101100101 >"
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101111011000100111010101100110 ?"
+b110011001100001011011000111001101100101 Y"
+b110011001100001011011000111001101100101 Z"
+b1111010 ["
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 \"
+b110011001100001011011000111001101100101 a"
+b110011001100001011011000111001101100101 b"
+b1111010 c"
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 d"
+b110010001100001011101000110000101100011 j"
+b11011110110011001100110 k"
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101100011000110110010101101100011011000101111101100011011011110110110101100010 l"
+b110011001100001011011000111001101100101 ~"
+b110011001100001011011000111001101100101 !#
+b1111010 "#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 ##
+b110010001100001011101000110000101100011 )#
+b11011110110011001100110 *#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101100011000110110010101101100011011000101111101100011011011110110110101100010 +#
+b110011001100001011011000111001101100101 =#
+b110011001100001011011000111001101100101 >#
+b1111010 ?#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 @#
+b110010001100001011101000110000101100011 F#
+b11011110110011001100110 G#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101100011000110110010101101100011011000101111101100011011011110110110101100010 H#
+b110011001100001011011000111001101100101 Z#
+b110011001100001011011000111001101100101 [#
+b1111010 \#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 ]#
+b110010001100001011101000110000101100011 c#
+b11011110110011001100110 d#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101100011000110110010101101100011011000101111101100011011011110110110101100010 e#
+b110010001100001011101000110000101100011 x#
+b11011110110011001100110 y#
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101100011000110110010101101100011011000101111101100011011011110110110101100010 z#
+b110011001100001011011000111001101100101 /$
+b110011001100001011011000111001101100101 0$
+b1111010 1$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 2$
+b110011001100001011011000111001101100101 7$
+b110011001100001011011000111001101100101 8$
+b1111010 9$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 :$
+b110011001100001011011000111001101100101 ?$
+b110011001100001011011000111001101100101 @$
+b1111010 A$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 B$
+b110011001100001011011000111001101100101 G$
+b110011001100001011011000111001101100101 H$
+b1111010 I$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 J$
+b110011001100001011011000111001101100101 O$
+b110011001100001011011000111001101100101 P$
+b1111010 Q$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 R$
+b110011001100001011011000111001101100101 W$
+b110011001100001011011000111001101100101 X$
+b1111010 Y$
+b110001101111001011000110110110001101111011011100110010101101001011101100101111101101001011011110101111101101001011000100111010101100110 Z$
+0(
+x'
+x&
+x%
+0$
+x)
+x*
+06
+17
+x8
+19
+1:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+xC
+xD
+xE
+0F
+xG
+xH
+0I
+0J
+xK
+0L
+xM
+0N
+xO
+0P
+xQ
+xR
+0j
+1k
+0l
+1m
+x(!
+x)!
+x*!
+x+!
+xD!
+xE!
+xF!
+xG!
+x`!
+xa!
+xb!
+xc!
+0{!
+1|!
+0}!
+1~!
+x9"
+x:"
+x;"
+x<"
+xU"
+xV"
+xW"
+xX"
+z_"
+zg"
+0s"
+0t"
+xu"
+xv"
+0w"
+z&#
+x2#
+03#
+04#
+x5#
+06#
+zC#
+0O#
+xP#
+0Q#
+xR#
+0S#
+z`#
+0l#
+0m#
+xn#
+xo#
+0p#
+0$$
+x%$
+x&$
+x'$
+0($
+z5$
+z=$
+zE$
+zM$
+zU$
+z]$
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0P"
+0O"
+0N"
+0M"
+0L"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+0C"
+0B"
+0A"
+04"
+03"
+02"
+01"
+00"
+0/"
+0."
+0-"
+0,"
+0+"
+0*"
+0)"
+0("
+0'"
+0&"
+0%"
+0v!
+0u!
+0t!
+0s!
+0r!
+0q!
+0p!
+0o!
+0n!
+0m!
+0l!
+0k!
+0j!
+0i!
+0h!
+0g!
+0[!
+0Z!
+0Y!
+0X!
+0W!
+0V!
+0U!
+0T!
+0S!
+0R!
+0Q!
+0P!
+0O!
+0N!
+0M!
+0L!
+0?!
+0>!
+0=!
+0<!
+0;!
+0:!
+09!
+08!
+07!
+06!
+05!
+04!
+03!
+02!
+01!
+00!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+1f
+xq
+x$!
+x/!
+x@!
+xK!
+x\!
+1w!
+x$"
+x5"
+x@"
+xQ"
+xm"
+xn"
+0o"
+x,#
+x-#
+x.#
+xI#
+xJ#
+0K#
+xf#
+xg#
+0h#
+x{#
+x|#
+x}#
+0~#
+$end
+#3492
+0f#
+0n#
+xv#
+xq#
+0v#
+0q#
+#3493
+0|#
+0&$
+x.$
+x)$
+0.$
+0)$
+#3563
+0-#
+05#
+#3566
+0g#
+0o#
+0j#
+#3571
+0n"
+0v"
+x|"
+xx"
+0|"
+0x"
+#3610
+0{#
+0%$
+0,$
+x.$
+x)$
+0.$
+0)$
+#3611
+0I#
+0P#
+0W#
+xY#
+xT#
+0Y#
+0T#
+#3686
+0Q
+#3764
+0,#
+02#
+09#
+07#
+00#
+0/#
+0.#
+#3947
+0}#
+0'$
+0"$
+#3948
+0J#
+0R#
+0M#
+#4044
+0m"
+0u"
+0q"
+#4067
+0R
+#4068
+0O
+#4131
+0M
+#4140
+0$"
+06"
+17"
+09"
+1:"
+1<"
+0;"
+15"
+#4285
+0K
+#4505
+0@"
+0R"
+1S"
+0U"
+1V"
+1X"
+0W"
+1Q"
+#4928
+0K!
+0]!
+1^!
+0`!
+1a!
+1c!
+0b!
+1\!
+#4953
+0/!
+0A!
+1B!
+0D!
+1E!
+1G!
+0F!
+1@!
+#5154
+0q
+0%!
+1&!
+0(!
+1)!
+1+!
+0*!
+1$!
+#6667
+0G
+0)
+#7032
+0H
+0*
+#7374
+0E
+0%
+#7490
+0D
+0&
+#7691
+0C
+0'
+#10000
+b1111 !
+b101 "
+14
+12
+1/
+1.
+1-
+1,
+1L$
+1N$
+1K$
+1D$
+1F$
+1C$
+1<$
+1>$
+1;$
+14$
+16$
+13$
+1B#
+1D#
+1A#
+1^"
+1`"
+1]"
+1<
+1=
+1>
+1?
+#10527
+1N
+#10555
+1I
+#14250
+1}#
+1'$
+1.$
+1)$
+1"$
+0.$
+0)$
+#14251
+1J#
+1R#
+1Y#
+1T#
+1M#
+0Y#
+0T#
+#14332
+1m"
+1u"
+1|"
+1x"
+1q"
+0|"
+0x"
+#14380
+1R
+#14381
+1O
+#14575
+1K
+#14837
+1@"
+1R"
+0S"
+1T"
+1U"
+0V"
+0X"
+1W"
+0Q"
+#15265
+1K!
+1]!
+0^!
+1_!
+1`!
+0a!
+0c!
+1b!
+0\!
+#15463
+1q
+1%!
+0&!
+1'!
+1(!
+0)!
+0+!
+1*!
+0$!
+#17466
+1H
+1*
+#17809
+1E
+1%
+#18102
+1C
+1'
+#60000
+b0 !
+b0 "
+04
+02
+0/
+0.
+0-
+0,
+0L$
+0N$
+0K$
+0D$
+0F$
+0C$
+0<$
+0>$
+0;$
+04$
+06$
+03$
+0B#
+0D#
+0A#
+0^"
+0`"
+0]"
+0<
+0=
+0>
+0?
+#60701
+0N
+#60728
+0I
+#64648
+0}#
+0'$
+0"$
+#64649
+0J#
+0R#
+0M#
+#64768
+0R
+#64769
+0O
+#64772
+0m"
+0u"
+0q"
+#65013
+0K
+#65206
+0@"
+0R"
+1S"
+0T"
+0U"
+1V"
+1X"
+0W"
+1Q"
+#65629
+0K!
+0]!
+1^!
+0_!
+0`!
+1a!
+1c!
+0b!
+1\!
+#65882
+0q
+0%!
+1&!
+0'!
+0(!
+1)!
+1+!
+0*!
+1$!
+#67733
+0H
+0*
+#68075
+0E
+0%
+#68419
+0C
+0'

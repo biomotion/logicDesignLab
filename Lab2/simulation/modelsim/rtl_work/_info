@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/logicDesignLab/Lab2/simulation/modelsim
+vbinarySubtractor
+Z1 !s110 1540538230
+!i10b 1
+!s100 mgzQ1Q5iYSW9iX;PV`XbQ0
+IYX`ofjP9;XO;7cJ1EGNQB3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1540537741
+8D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v
+FD:/altera_project/logicDesignLab/Lab2/binarySubtractor.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1540538230.436000
+!s107 D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2
+nbinary@subtractor
+vfullAdder
+R1
+!i10b 1
+!s100 @bd6a0^?JQE;V?Z0ANgJd2
+IlV8R1RKo4hh@b7gjSJeP<1
+R2
+R0
+w1540536635
+8D:/altera_project/logicDesignLab/Lab2/fullAdder.v
+FD:/altera_project/logicDesignLab/Lab2/fullAdder.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1540538230.748000
+!s107 D:/altera_project/logicDesignLab/Lab2/fullAdder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/fullAdder.v|
+!i113 1
+R4
+R5
+nfull@adder
+vtestbench
+R1
+!i10b 1
+!s100 PIPHF06h]E=kAioJ53C303
+IX^65am9biHcc:3_BPFC?81
+R2
+R0
+w1540538110
+8D:/altera_project/logicDesignLab/Lab2/testbench.v
+FD:/altera_project/logicDesignLab/Lab2/testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1540538230.824000
+!s107 D:/altera_project/logicDesignLab/Lab2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/testbench.v|
+!i113 1
+R4
+R5
