@@ -17,7 +17,7 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script d:/altera/14.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File binarySubtractor_run_msim_gate_verilog.do already exists - backing up current file as binarySubtractor_run_msim_gate_verilog.do.bak
+Warning: File binarySubtractor_run_msim_gate_verilog.do already exists - backing up current file as binarySubtractor_run_msim_gate_verilog.do.bak1
 Probing transcript
 ModelSim-Altera Info: # Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
 ModelSim-Altera Info: # do binarySubtractor_run_msim_gate_verilog.do
@@ -35,29 +35,29 @@ ModelSim-Altera Info: #          Updated modelsim.ini.
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {binarySubtractor.vo}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 15:20:54 on Oct 26,2018
+ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." binarySubtractor.vo 
 ModelSim-Altera Info: # -- Compiling module binarySubtractor
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	binarySubtractor
-ModelSim-Altera Info: # End time: 15:20:54 on Oct 26,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # End time: 02:44:44 on Oct 27,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/testbench.v}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 15:20:54 on Oct 26,2018
+ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/testbench.v 
 ModelSim-Altera Info: # -- Compiling module testbench
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	testbench
-ModelSim-Altera Info: # End time: 15:20:54 on Oct 26,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # End time: 02:44:44 on Oct 27,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
 ModelSim-Altera Info: # vsim -gui -l msim_transcript -do "binarySubtractor_run_msim_gate_verilog.do" 
-ModelSim-Altera Info: # Start time: 15:20:55 on Oct 26,2018
+ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
 ModelSim-Altera Info: # Loading work.testbench
 ModelSim-Altera Info: # Loading work.binarySubtractor
 ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_obuf
@@ -76,6 +76,6 @@ ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
 ModelSim-Altera Info: # view signals
 ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
 ModelSim-Altera Info: # run -all
-ModelSim-Altera Info: # End time: 15:22:37 on Oct 26,2018, Elapsed time: 0:01:42
+ModelSim-Altera Info: # End time: 02:45:28 on Oct 27,2018, Elapsed time: 0:00:44
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 Info: NativeLink simulation flow was successful

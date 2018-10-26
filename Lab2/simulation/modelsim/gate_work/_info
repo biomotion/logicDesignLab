@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/altera_project/logicDesignLab/Lab2/simulation/modelsim
 vbinarySubtractor
-Z1 !s110 1540538454
+Z1 !s110 1540579484
 !i10b 1
 !s100 k9hgjBS77kAj5E?kbMDz=3
 I:G8nY`N7azDdVC^4RXYZ^2
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-w1540538448
+w1540579468
 8binarySubtractor.vo
 FbinarySubtractor.vo
 L0 32
@@ -23,7 +23,7 @@ Z3 OV;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1540538454.652000
+!s108 1540579484.214000
 !s107 binarySubtractor.vo|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|binarySubtractor.vo|
 !i113 1
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-!s108 1540538454.864000
+!s108 1540579484.401000
 !s107 D:/altera_project/logicDesignLab/Lab2/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/testbench.v|
 !i113 1
