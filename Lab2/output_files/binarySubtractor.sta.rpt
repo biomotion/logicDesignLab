@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for binarySubtractor
-Sat Oct 27 02:44:24 2018
+Sat Oct 27 21:48:07 2018
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -519,7 +519,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
-    Info: Processing started: Sat Oct 27 02:44:19 2018
+    Info: Processing started: Sat Oct 27 21:48:05 2018
 Info: Command: quartus_sta binarySubtractor -c binarySubtractor
 Info: qsta_default_script.tcl version: #3
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -567,8 +567,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4765 megabytes
-    Info: Processing ended: Sat Oct 27 02:44:24 2018
-    Info: Elapsed time: 00:00:05
+    Info: Processing ended: Sat Oct 27 21:48:07 2018
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -17,7 +17,7 @@ Sim dir               :  simulation\modelsim
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
 Sourced NativeLink script d:/altera/14.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File binarySubtractor_run_msim_gate_verilog.do already exists - backing up current file as binarySubtractor_run_msim_gate_verilog.do.bak1
+Warning: File binarySubtractor_run_msim_gate_verilog.do already exists - backing up current file as binarySubtractor_run_msim_gate_verilog.do.bak7
 Probing transcript
 ModelSim-Altera Info: # Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
 ModelSim-Altera Info: # do binarySubtractor_run_msim_gate_verilog.do
@@ -35,29 +35,29 @@ ModelSim-Altera Info: #          Updated modelsim.ini.
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {binarySubtractor.vo}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
+ModelSim-Altera Info: # Start time: 21:48:16 on Oct 27,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." binarySubtractor.vo 
 ModelSim-Altera Info: # -- Compiling module binarySubtractor
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	binarySubtractor
-ModelSim-Altera Info: # End time: 02:44:44 on Oct 27,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # End time: 21:48:16 on Oct 27,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/testbench.v}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
+ModelSim-Altera Info: # Start time: 21:48:16 on Oct 27,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/testbench.v 
 ModelSim-Altera Info: # -- Compiling module testbench
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	testbench
-ModelSim-Altera Info: # End time: 02:44:44 on Oct 27,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # End time: 21:48:16 on Oct 27,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
 ModelSim-Altera Info: # vsim -gui -l msim_transcript -do "binarySubtractor_run_msim_gate_verilog.do" 
-ModelSim-Altera Info: # Start time: 02:44:44 on Oct 27,2018
+ModelSim-Altera Info: # Start time: 21:48:16 on Oct 27,2018
 ModelSim-Altera Info: # Loading work.testbench
 ModelSim-Altera Info: # Loading work.binarySubtractor
 ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_obuf
@@ -66,16 +66,36 @@ ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_lcell_comb
 ModelSim-Altera Info: # SDF 10.3c Compiler 2014.09 Sep 20 2014
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Loading instances from binarySubtractor_v.sdo
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'S'. The port definition is at: binarySubtractor.vo(33).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /testbench/bs
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'A'. The port definition is at: binarySubtractor.vo(36).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /testbench/bs
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'B'. The port definition is at: binarySubtractor.vo(37).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /testbench/bs
 ModelSim-Altera Info: # Loading timing data from binarySubtractor_v.sdo
 ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/Lab2/testbench.v
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # add wave *
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           File in use by: benso  Hostname: DESKTOP-CS6SLTT  ProcessID: 12584
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Attempting to use alternate WLF file "./wlftjm8g8z".
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Using alternate file: ./wlftjm8g8z
+ModelSim-Altera Info: # 
 ModelSim-Altera Info: # view structure
 ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
 ModelSim-Altera Info: # view signals
 ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
 ModelSim-Altera Info: # run -all
-ModelSim-Altera Info: # End time: 02:45:28 on Oct 27,2018, Elapsed time: 0:00:44
-ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # Break key hit
+ModelSim-Altera Info: # Break in Module cycloneiv_io_ibuf at /build/swbuild/SJ/nightly/14.1/186/l64/work/modelsim/eda/sim_lib/cycloneiv_atoms.v line 662
+ModelSim-Altera Info: # End time: 21:48:59 on Oct 27,2018, Elapsed time: 0:00:43
+ModelSim-Altera Info: # Errors: 0, Warnings: 5
 Info: NativeLink simulation flow was successful
