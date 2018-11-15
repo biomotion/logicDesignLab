@@ -1,0 +1,28 @@
+`timescale 1ns/1ns
+`define CYCLE 10
+module testbench();
+
+reg CLK, D;
+wire Q, Qc;
+
+flipflop ff(.Q(Q), .Qc(Qc), .CLK(CLK), .D(D));
+
+//**************************** clock gen **********************//
+always begin #(`CYCLE/2) CLK = ~CLK; end
+
+initial begin
+	$dumpfile("result.vcd");
+	$dumpvars;
+end
+
+initial begin
+#0
+	D = 0;
+#10
+	D = 1;
+#30
+	D = 0;
+#70
+	D = 0;
+end
+endmodule

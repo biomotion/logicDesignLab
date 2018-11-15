@@ -14,29 +14,29 @@
 # 
 # vlog -vlog01compat -work work +incdir+. {binarySubtractor.vo}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 21:48:16 on Oct 27,2018
+# Start time: 04:01:22 on Nov 16,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." binarySubtractor.vo 
 # -- Compiling module binarySubtractor
 # 
 # Top level modules:
 # 	binarySubtractor
-# End time: 21:48:16 on Oct 27,2018, Elapsed time: 0:00:00
+# End time: 04:01:22 on Nov 16,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 21:48:16 on Oct 27,2018
+# Start time: 04:01:22 on Nov 16,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 21:48:16 on Oct 27,2018, Elapsed time: 0:00:00
+# End time: 04:01:22 on Nov 16,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
 # vsim -gui -l msim_transcript -do "binarySubtractor_run_msim_gate_verilog.do" 
-# Start time: 21:48:16 on Oct 27,2018
+# Start time: 04:01:22 on Nov 16,2018
 # Loading work.testbench
 # Loading work.binarySubtractor
 # Loading cycloneiv_ver.cycloneiv_io_obuf
@@ -45,15 +45,6 @@
 # SDF 10.3c Compiler 2014.09 Sep 20 2014
 # 
 # Loading instances from binarySubtractor_v.sdo
-# ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'S'. The port definition is at: binarySubtractor.vo(33).
-# 
-#         Region: /testbench/bs
-# ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'A'. The port definition is at: binarySubtractor.vo(36).
-# 
-#         Region: /testbench/bs
-# ** Warning: (vsim-3015) D:/altera_project/logicDesignLab/Lab2/testbench.v(12): [PCDPC] - Port size (5) does not match connection size (4) for port 'B'. The port definition is at: binarySubtractor.vo(37).
-# 
-#         Region: /testbench/bs
 # Loading timing data from binarySubtractor_v.sdo
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
 #    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/Lab2/testbench.v
@@ -63,17 +54,15 @@
 # 
 #           File in use by: benso  Hostname: DESKTOP-CS6SLTT  ProcessID: 12584
 # 
-#           Attempting to use alternate WLF file "./wlftjm8g8z".
+#           Attempting to use alternate WLF file "./wlft85ftzg".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlftjm8g8z
+#           Using alternate file: ./wlft85ftzg
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Break key hit
-# Break in Module cycloneiv_io_ibuf at /build/swbuild/SJ/nightly/14.1/186/l64/work/modelsim/eda/sim_lib/cycloneiv_atoms.v line 662
-# End time: 21:48:59 on Oct 27,2018, Elapsed time: 0:00:43
-# Errors: 0, Warnings: 5
+# End time: 04:03:28 on Nov 16,2018, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2

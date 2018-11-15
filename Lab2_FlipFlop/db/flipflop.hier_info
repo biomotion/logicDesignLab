@@ -1,0 +1,8 @@
+|flipflop
+Q << Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc << Qc.DB_MAX_OUTPUT_PORT_TYPE
+CLK => S.IN1
+CLK => R.IN0
+D => Rc.IN1
+
+

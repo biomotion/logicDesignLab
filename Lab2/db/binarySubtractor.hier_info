@@ -3,19 +3,16 @@ S[0] << fullAdder:fullAdder1.port0
 S[1] << fullAdder:fullAdder2.port0
 S[2] << fullAdder:fullAdder3.port0
 S[3] << fullAdder:fullAdder4.port0
-S[4] << <GND>
 c << fullAdder:fullAdder4.port1
 v << v.DB_MAX_OUTPUT_PORT_TYPE
-A[0] => ~NO_FANOUT~
-A[1] => ~NO_FANOUT~
-A[2] => ~NO_FANOUT~
-A[3] => ~NO_FANOUT~
-A[4] => ~NO_FANOUT~
-B[0] => B[0].IN1
-B[1] => B[1].IN1
-B[2] => B[2].IN1
-B[3] => B[3].IN1
-B[4] => ~NO_FANOUT~
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => P.IN0
+B[1] => P.IN0
+B[2] => P.IN0
+B[3] => P.IN0
 m => C[0].IN1
 
 
