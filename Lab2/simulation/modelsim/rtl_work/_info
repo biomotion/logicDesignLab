@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/altera_project/logicDesignLab/Lab2/simulation/modelsim
 vbinarySubtractor
-Z1 !s110 1540538230
+Z1 !s110 1542339964
 !i10b 1
-!s100 mgzQ1Q5iYSW9iX;PV`XbQ0
-IYX`ofjP9;XO;7cJ1EGNQB3
+!s100 <eR>Ld8aTM<a41HMmKGD_0
+IIW8F[if]o5daze?@UgHG11
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-w1540537741
+w1542311960
 8D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v
 FD:/altera_project/logicDesignLab/Lab2/binarySubtractor.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.3c;59
 r1
 !s85 0
 31
-!s108 1540538230.436000
+!s108 1542339964.382000
 !s107 D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v|
 !i113 1
@@ -45,7 +45,7 @@ R3
 r1
 !s85 0
 31
-!s108 1540538230.748000
+!s108 1542339964.524000
 !s107 D:/altera_project/logicDesignLab/Lab2/fullAdder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/fullAdder.v|
 !i113 1
@@ -55,19 +55,19 @@ nfull@adder
 vtestbench
 R1
 !i10b 1
-!s100 PIPHF06h]E=kAioJ53C303
-IX^65am9biHcc:3_BPFC?81
+!s100 BK>kf5P[]=1TT_DAn=JF<0
+IkVb3T[<6K3>2d:LVLf]f`2
 R2
 R0
-w1540538110
+w1542312039
 8D:/altera_project/logicDesignLab/Lab2/testbench.v
 FD:/altera_project/logicDesignLab/Lab2/testbench.v
-L0 2
+L0 3
 R3
 r1
 !s85 0
 31
-!s108 1540538230.824000
+!s108 1542339964.691000
 !s107 D:/altera_project/logicDesignLab/Lab2/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab2|D:/altera_project/logicDesignLab/Lab2/testbench.v|
 !i113 1

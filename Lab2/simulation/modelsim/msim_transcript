@@ -1,68 +1,70 @@
 # Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
-# do binarySubtractor_run_msim_gate_verilog.do
-# if {[file exists gate_work]} {
-# 	vdel -lib gate_work -all
+# do binarySubtractor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
 # }
-# vlib gate_work
-# vmap work gate_work
+# vlib rtl_work
+# vmap work rtl_work
 # Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
-# vmap -modelsim_quiet work gate_work 
+# vmap -modelsim_quiet work rtl_work 
 # Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+. {binarySubtractor.vo}
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 04:01:22 on Nov 16,2018
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." binarySubtractor.vo 
+# Start time: 11:46:04 on Nov 16,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/binarySubtractor.v 
 # -- Compiling module binarySubtractor
 # 
 # Top level modules:
 # 	binarySubtractor
-# End time: 04:01:22 on Nov 16,2018, Elapsed time: 0:00:00
+# End time: 11:46:04 on Nov 16,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/fullAdder.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 11:46:04 on Nov 16,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/fullAdder.v 
+# -- Compiling module fullAdder
+# 
+# Top level modules:
+# 	fullAdder
+# End time: 11:46:04 on Nov 16,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2 {D:/altera_project/logicDesignLab/Lab2/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 04:01:22 on Nov 16,2018
+# Start time: 11:46:04 on Nov 16,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2" D:/altera_project/logicDesignLab/Lab2/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 04:01:22 on Nov 16,2018, Elapsed time: 0:00:00
+# End time: 11:46:04 on Nov 16,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
-# vsim -gui -l msim_transcript -do "binarySubtractor_run_msim_gate_verilog.do" 
-# Start time: 04:01:22 on Nov 16,2018
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "binarySubtractor_run_msim_rtl_verilog.do" 
+# Start time: 11:46:05 on Nov 16,2018
 # Loading work.testbench
 # Loading work.binarySubtractor
-# Loading cycloneiv_ver.cycloneiv_io_obuf
-# Loading cycloneiv_ver.cycloneiv_io_ibuf
-# Loading cycloneiv_ver.cycloneiv_lcell_comb
-# SDF 10.3c Compiler 2014.09 Sep 20 2014
-# 
-# Loading instances from binarySubtractor_v.sdo
-# Loading timing data from binarySubtractor_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/Lab2/testbench.v
+# Loading work.fullAdder
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 # 
 #           File in use by: benso  Hostname: DESKTOP-CS6SLTT  ProcessID: 12584
 # 
-#           Attempting to use alternate WLF file "./wlft85ftzg".
+#           Attempting to use alternate WLF file "./wlft6vmg1f".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
 # 
-#           Using alternate file: ./wlft85ftzg
+#           Using alternate file: ./wlft6vmg1f
 # 
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 04:03:28 on Nov 16,2018, Elapsed time: 0:02:06
+# End time: 11:55:05 on Nov 16,2018, Elapsed time: 0:09:00
 # Errors: 0, Warnings: 2
