@@ -1,3 +1,4 @@
+`include"fullAdder.v"
 module binarySubtractor(S, c, v, A, B, m);
 output [3:0] S;
 output c, v;
