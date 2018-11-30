@@ -7,13 +7,11 @@ wire Sc, Rc;
 
 assign Sc = !(Rc&S);
 assign S = !(Sc&CLK);
-assign R = !(Rc&CLK);
+assign R = !(Rc&CLK&S);
 assign Rc = !(R&D);
 
 assign Q = !(Qc&S);
 assign Qc = !(Q&R);
-
-
 
 
 

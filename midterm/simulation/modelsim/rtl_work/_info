@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/logicDesignLab/midterm/simulation/modelsim
+vmidterm_exam
+Z1 !s110 1542958130
+!i10b 1
+!s100 [CEnLO<]P3L^79bbIje_23
+Ibfa=[KP4HM8jRFhFfdD8R1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1542956638
+8D:/altera_project/logicDesignLab/midterm/midterm_exam.v
+FD:/altera_project/logicDesignLab/midterm/midterm_exam.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1542958130.182000
+!s107 D:/altera_project/logicDesignLab/midterm/midterm_exam.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/midterm|D:/altera_project/logicDesignLab/midterm/midterm_exam.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/midterm
+vtestbench
+R1
+!i10b 1
+!s100 ]eE`DcZ`0_K`0KLNJ:RE91
+I<1>d9QaXYoYJCzmg895B:1
+R2
+R0
+w1542956956
+8D:/altera_project/logicDesignLab/midterm/testbench.v
+FD:/altera_project/logicDesignLab/midterm/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1542958130.309000
+!s107 D:/altera_project/logicDesignLab/midterm/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/midterm|D:/altera_project/logicDesignLab/midterm/testbench.v|
+!i113 1
+R4
+R5

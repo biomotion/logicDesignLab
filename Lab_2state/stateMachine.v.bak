@@ -1,0 +1,39 @@
+module stateMachine(A, CLK, X, Y);
+input CLK, X, Y;
+output A;
+
+wire S, R;
+wire Sc, Rc;
+wire 
+
+
+assign Sc = !(Rc&S);
+assign S = !(Sc&CLK);
+assign R = !(Rc&CLK&S);
+assign Rc = !(R&D);
+
+assign Q = !(Qc&S);
+assign Qc = !(Q&R);
+
+
+endmodule
+
+
+module flipflop(Q, Qc, CLK, D);
+input CLK, D;
+output Q, Qc;
+
+wire S, R;
+wire Sc, Rc;
+
+assign Sc = !(Rc&S);
+assign S = !(Sc&CLK);
+assign R = !(Rc&CLK&S);
+assign Rc = !(R&D);
+
+assign Q = !(Qc&S);
+assign Qc = !(Q&R);
+
+
+
+endmodule

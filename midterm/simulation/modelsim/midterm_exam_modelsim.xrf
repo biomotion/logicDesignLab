@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, D:/altera_project/logicDesignLab/midterm/midterm_exam.v
+source_file = 1, D:/altera_project/logicDesignLab/midterm/testbench.v
+source_file = 1, D:/altera_project/logicDesignLab/midterm/db/midterm_exam.cbx.xml
+design_name = midterm_exam
+instance = comp, \Q[0]~output , Q[0]~output, midterm_exam, 1
+instance = comp, \Q[1]~output , Q[1]~output, midterm_exam, 1
+instance = comp, \R[0]~output , R[0]~output, midterm_exam, 1
+instance = comp, \R[1]~output , R[1]~output, midterm_exam, 1
+instance = comp, \A[1]~input , A[1]~input, midterm_exam, 1
+instance = comp, \B[0]~input , B[0]~input, midterm_exam, 1
+instance = comp, \A[0]~input , A[0]~input, midterm_exam, 1
+instance = comp, \B[1]~input , B[1]~input, midterm_exam, 1
+instance = comp, \G8~0 , G8~0, midterm_exam, 1
+instance = comp, \G12~0 , G12~0, midterm_exam, 1
+instance = comp, \G13~0 , G13~0, midterm_exam, 1

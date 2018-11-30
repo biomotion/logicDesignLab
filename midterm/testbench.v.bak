@@ -1,0 +1,26 @@
+`timescale 1ns/1ns
+
+module testbench();
+
+reg [1:0] A, B;
+wire [1:0] Q, R;
+
+midterm_exam mid(.Q(Q), .R(R), .A(A), .B(B));
+
+initial begin
+	$dumpfile("tb.vcd");
+	$dumpvars;
+end
+
+initial
+begin
+	#0	A = 0;
+		B = 0;
+	#1 A = 'b0101;
+		B = 'b1010;
+	#2 A = 'b1110;
+		B = 'b1110;
+	#3 A = 0;
+		A = 0;
+end
+endmodule 

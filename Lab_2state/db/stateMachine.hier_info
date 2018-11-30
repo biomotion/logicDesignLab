@@ -1,0 +1,19 @@
+|stateMachine
+A << flipflop:ff.Q
+CLK => CLK.IN1
+X => D1.IN0
+Y => D1.IN1
+RST => RST.IN1
+
+
+|stateMachine|flipflop:ff
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= Qc.DB_MAX_OUTPUT_PORT_TYPE
+CLK => S.IN1
+CLK => R.IN0
+D => Rc.IN1
+RST => S.IN1
+RST => Rc.IN1
+RST => Qc.IN1
+
+

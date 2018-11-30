@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v
+source_file = 1, D:/altera_project/logicDesignLab/Lab_2state/testbench.v
+source_file = 1, D:/altera_project/logicDesignLab/Lab_2state/db/stateMachine.cbx.xml
+design_name = stateMachine
+instance = comp, \A~output , A~output, stateMachine, 1
+instance = comp, \CLK~input , CLK~input, stateMachine, 1
+instance = comp, \RST~input , RST~input, stateMachine, 1
+instance = comp, \Y~input , Y~input, stateMachine, 1
+instance = comp, \ff|Q~1 , ff|Q~1, stateMachine, 1
+instance = comp, \X~input , X~input, stateMachine, 1
+instance = comp, \ff|Rc~0 , ff|Rc~0, stateMachine, 1
+instance = comp, \ff|S~0 , ff|S~0, stateMachine, 1
+instance = comp, \ff|Q~2 , ff|Q~2, stateMachine, 1

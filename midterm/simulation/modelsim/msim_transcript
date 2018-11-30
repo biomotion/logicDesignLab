@@ -1,0 +1,50 @@
+# Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do midterm_exam_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/midterm {D:/altera_project/logicDesignLab/midterm/midterm_exam.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:28:50 on Nov 23,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/midterm" D:/altera_project/logicDesignLab/midterm/midterm_exam.v 
+# -- Compiling module midterm_exam
+# 
+# Top level modules:
+# 	midterm_exam
+# End time: 15:28:50 on Nov 23,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/midterm {D:/altera_project/logicDesignLab/midterm/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:28:50 on Nov 23,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/midterm" D:/altera_project/logicDesignLab/midterm/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:28:50 on Nov 23,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "midterm_exam_run_msim_rtl_verilog.do" 
+# Start time: 15:28:50 on Nov 23,2018
+# Loading work.testbench
+# Loading work.midterm_exam
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 15:38:32 on Nov 23,2018, Elapsed time: 0:09:42
+# Errors: 0, Warnings: 0
