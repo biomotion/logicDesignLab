@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/logicDesignLab/midTerm2/simulation/modelsim
+vmid2
+Z1 !s110 1545485328
+!i10b 1
+!s100 OWFH5K;[a4lMzz5]MYUZR2
+If1?J?=MGDP92XJH85a=g80
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1545485319
+8mid2.vo
+Fmid2.vo
+L0 32
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1545485328.354000
+!s107 mid2.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mid2.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+vtestbench
+R1
+!i10b 1
+!s100 A03T@KiNg0YKObT6MbMSj2
+IEb[zU`7Sb^c>TRehNn_<T3
+R2
+R0
+w1545484807
+8D:/altera_project/logicDesignLab/midTerm2/testbench.v
+FD:/altera_project/logicDesignLab/midTerm2/testbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1545485328.570000
+!s107 D:/altera_project/logicDesignLab/midTerm2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/midTerm2|D:/altera_project/logicDesignLab/midTerm2/testbench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/midTerm2

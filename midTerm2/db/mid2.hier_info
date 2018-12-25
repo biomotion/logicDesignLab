@@ -1,0 +1,54 @@
+|mid2
+fire <= <GND>
+cd[0] <= qc[0].DB_MAX_OUTPUT_PORT_TYPE
+cd[1] <= cd[1].DB_MAX_OUTPUT_PORT_TYPE
+cd[2] <= qc[2].DB_MAX_OUTPUT_PORT_TYPE
+cd[3] <= flipflop:ff3.port0
+clk => clk.IN1
+rst => rst.IN4
+
+
+|mid2|flipflop:ff0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
+|mid2|flipflop:ff1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
+|mid2|flipflop:ff2
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
+|mid2|flipflop:ff3
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
