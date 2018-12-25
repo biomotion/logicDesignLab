@@ -1,5 +1,5 @@
 Flow report for flipflop
-Fri Nov 16 14:13:37 2018
+Thu Dec 20 18:47:57 2018
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +------------------------------------+--------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 16 14:13:37 2018      ;
+; Flow Status                        ; Successful - Thu Dec 20 18:47:57 2018      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; flipflop                                   ;
 ; Top-level Entity Name              ; flipflop                                   ;
@@ -69,7 +69,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/16/2018 14:12:43 ;
+; Start date & time ; 12/20/2018 18:47:19 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; flipflop            ;
 +-------------------+---------------------+
@@ -80,7 +80,7 @@ agreement for further details.
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 93094404544351.154234876309568 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 93094404544351.154530283809600 ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                             ; --            ; --          ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                      ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
@@ -103,12 +103,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:17     ; 1.0                     ; 4811 MB             ; 00:00:24                           ;
-; Fitter                    ; 00:00:16     ; 1.0                     ; 5180 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 4766 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4762 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4726 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:40     ; --                      ; --                  ; 00:00:34                           ;
+; Analysis & Synthesis      ; 00:00:14     ; 1.0                     ; 4848 MB             ; 00:00:26                           ;
+; Fitter                    ; 00:00:07     ; 1.0                     ; 5645 MB             ; 00:00:07                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4774 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4825 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4737 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:40                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,11 +117,11 @@ agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-CS6SLTT  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-CS6SLTT  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-CS6SLTT  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-CS6SLTT  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-CS6SLTT  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; DESKTOP-AQK6UHP  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-AQK6UHP  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-AQK6UHP  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-AQK6UHP  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-AQK6UHP  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

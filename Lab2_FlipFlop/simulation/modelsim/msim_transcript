@@ -1,4 +1,4 @@
-# Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
 # do flipflop_run_msim_gate_verilog.do
 # if {[file exists gate_work]} {
 # 	vdel -lib gate_work -all
@@ -7,36 +7,36 @@
 # vmap work gate_work
 # Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
 # vmap -modelsim_quiet work gate_work 
-# Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
-# ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
 # vlog -vlog01compat -work work +incdir+. {flipflop.vo}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:13:52 on Nov 16,2018
+# Start time: 18:48:13 on Dec 20,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." flipflop.vo 
 # -- Compiling module flipflop
 # 
 # Top level modules:
 # 	flipflop
-# End time: 14:13:53 on Nov 16,2018, Elapsed time: 0:00:01
+# End time: 18:48:13 on Dec 20,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2_FlipFlop {D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 14:13:53 on Nov 16,2018
+# Start time: 18:48:13 on Dec 20,2018
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2_FlipFlop" D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 14:13:53 on Nov 16,2018, Elapsed time: 0:00:00
+# End time: 18:48:13 on Dec 20,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
 # vsim -gui -l msim_transcript -do "flipflop_run_msim_gate_verilog.do" 
-# Start time: 14:13:53 on Nov 16,2018
+# Start time: 18:48:13 on Dec 20,2018
 # Loading work.testbench
 # Loading work.flipflop
 # Loading cycloneiv_ver.cycloneiv_io_obuf
@@ -62,5 +62,5 @@
 # Simulation Breakpoint: 1
 # Break in Module testbench at D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v line 28
 # MACRO ./flipflop_run_msim_gate_verilog.do PAUSED at line 17
-# End time: 14:17:03 on Nov 16,2018, Elapsed time: 0:03:10
+# End time: 18:49:00 on Dec 20,2018, Elapsed time: 0:00:47
 # Errors: 0, Warnings: 0

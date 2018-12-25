@@ -4,8 +4,8 @@ Info: Start Nativelink Simulation process
 
 Sim Mode              :  Gate
 Family                :  cycloneivgx
-Quartus root          :  d:/altera/14.1/quartus/bin64/
-Quartus sim root      :  d:/altera/14.1/quartus/eda/sim_lib
+Quartus root          :  c:/altera/14.1/quartus/bin64/
+Quartus sim root      :  c:/altera/14.1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
 Simulation Language   :  verilog
 Simulation Mode       :  GUI
@@ -16,10 +16,10 @@ Sim dir               :  simulation\modelsim
 =======================================================
 
 Info: Starting NativeLink simulation with ModelSim-Altera software
-Sourced NativeLink script d:/altera/14.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
-Warning: File flipflop_run_msim_gate_verilog.do already exists - backing up current file as flipflop_run_msim_gate_verilog.do.bak7
+Sourced NativeLink script c:/altera/14.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File flipflop_run_msim_gate_verilog.do already exists - backing up current file as flipflop_run_msim_gate_verilog.do.bak8
 Probing transcript
-ModelSim-Altera Info: # Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
 ModelSim-Altera Info: # do flipflop_run_msim_gate_verilog.do
 ModelSim-Altera Info: # if {[file exists gate_work]} {
 ModelSim-Altera Info: # 	vdel -lib gate_work -all
@@ -28,36 +28,36 @@ ModelSim-Altera Info: # vlib gate_work
 ModelSim-Altera Info: # vmap work gate_work
 ModelSim-Altera Info: # Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
 ModelSim-Altera Info: # vmap -modelsim_quiet work gate_work 
-ModelSim-Altera Info: # Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 ModelSim-Altera Info: # Modifying modelsim.ini
-ModelSim-Altera Warning: # ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Warning: # ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 ModelSim-Altera Info: #          Updated modelsim.ini.
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {flipflop.vo}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 14:13:52 on Nov 16,2018
+ModelSim-Altera Info: # Start time: 18:48:13 on Dec 20,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." flipflop.vo 
 ModelSim-Altera Info: # -- Compiling module flipflop
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	flipflop
-ModelSim-Altera Info: # End time: 14:13:53 on Nov 16,2018, Elapsed time: 0:00:01
+ModelSim-Altera Info: # End time: 18:48:13 on Dec 20,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab2_FlipFlop {D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v}
 ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-ModelSim-Altera Info: # Start time: 14:13:53 on Nov 16,2018
+ModelSim-Altera Info: # Start time: 18:48:13 on Dec 20,2018
 ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab2_FlipFlop" D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v 
 ModelSim-Altera Info: # -- Compiling module testbench
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # Top level modules:
 ModelSim-Altera Info: # 	testbench
-ModelSim-Altera Info: # End time: 14:13:53 on Nov 16,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # End time: 18:48:13 on Dec 20,2018, Elapsed time: 0:00:00
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 ModelSim-Altera Info: # 
 ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
 ModelSim-Altera Info: # vsim -gui -l msim_transcript -do "flipflop_run_msim_gate_verilog.do" 
-ModelSim-Altera Info: # Start time: 14:13:53 on Nov 16,2018
+ModelSim-Altera Info: # Start time: 18:48:13 on Dec 20,2018
 ModelSim-Altera Info: # Loading work.testbench
 ModelSim-Altera Info: # Loading work.flipflop
 ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_obuf
@@ -83,6 +83,6 @@ ModelSim-Altera Info: # Break in Module testbench at D:/altera_project/logicDesi
 ModelSim-Altera Info: # Simulation Breakpoint: 1
 ModelSim-Altera Info: # Break in Module testbench at D:/altera_project/logicDesignLab/Lab2_FlipFlop/testbench.v line 28
 ModelSim-Altera Info: # MACRO ./flipflop_run_msim_gate_verilog.do PAUSED at line 17
-ModelSim-Altera Info: # End time: 14:17:03 on Nov 16,2018, Elapsed time: 0:03:10
+ModelSim-Altera Info: # End time: 18:49:00 on Dec 20,2018, Elapsed time: 0:00:47
 ModelSim-Altera Info: # Errors: 0, Warnings: 0
 Info: NativeLink simulation flow was successful
