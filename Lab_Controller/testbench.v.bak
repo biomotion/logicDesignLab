@@ -1,0 +1,21 @@
+`timescale 1ns/1ns
+`define CYCLE 100
+
+module testbench();
+
+wire clr_AF, incr_A, set_E, set_F, clr_E;
+reg start, A2, A3, clk, rst;
+
+controller c(clr_AF, incr_A, set_E, set_F, clr_E,
+						start, A2, A3, clk, rst);
+						
+initial begin
+	$dumpfile("result	.vcd");
+	$dumpvars;
+end
+
+always begin #`CYCLE CLK = ~CLK; end
+
+initial begin
+#0
+	RST = 0;

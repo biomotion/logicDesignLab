@@ -1,0 +1,65 @@
+# Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do controller_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work gate_work 
+# Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {controller.vo}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:54:58 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." controller.vo 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 10:54:59 on Dec 28,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab_Controller {D:/altera_project/logicDesignLab/Lab_Controller/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:54:59 on Dec 28,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab_Controller" D:/altera_project/logicDesignLab/Lab_Controller/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 10:54:59 on Dec 28,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
+# vsim -gui -l msim_transcript -do "controller_run_msim_gate_verilog.do" 
+# Start time: 10:54:59 on Dec 28,2018
+# Loading work.testbench
+# Loading work.controller
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# SDF 10.3c Compiler 2014.09 Sep 20 2014
+# 
+# Loading instances from controller_v.sdo
+# Loading timing data from controller_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/Lab_Controller/testbench.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Error: (vsim-7) Failed to open VCD file "result	.vcd" in write mode.
+# 
+# Invalid argument. (errno = EINVAL)    : D:/altera_project/logicDesignLab/Lab_Controller/testbench.v(13)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# ** Note: $finish    : D:/altera_project/logicDesignLab/Lab_Controller/testbench.v(33)
+#    Time: 15050 ns  Iteration: 0  Instance: /testbench
+# End time: 11:54:34 on Dec 28,2018, Elapsed time: 0:59:35
+# Errors: 1, Warnings: 0

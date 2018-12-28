@@ -1,0 +1,125 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneivgx
+Quartus root          :  d:/altera/14.1/quartus/bin64/
+Quartus sim root      :  d:/altera/14.1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  controller.vo
+Sim SDF file          :  controller__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script d:/altera/14.1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Probing transcript
+ModelSim-Altera Info: # Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # do controller_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+ModelSim-Altera Info: # vmap -modelsim_quiet work gate_work 
+ModelSim-Altera Info: # Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {controller.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+ModelSim-Altera Info: # Start time: 10:54:58 on Dec 28,2018
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." controller.vo 
+ModelSim-Altera Info: # -- Compiling module controller
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	controller
+ModelSim-Altera Info: # End time: 10:54:59 on Dec 28,2018, Elapsed time: 0:00:01
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab_Controller {D:/altera_project/logicDesignLab/Lab_Controller/testbench.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+ModelSim-Altera Info: # Start time: 10:54:59 on Dec 28,2018
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab_Controller" D:/altera_project/logicDesignLab/Lab_Controller/testbench.v 
+ModelSim-Altera Info: # -- Compiling module testbench
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	testbench
+ModelSim-Altera Info: # End time: 10:54:59 on Dec 28,2018, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
+ModelSim-Altera Info: # vsim -gui -l msim_transcript -do "controller_run_msim_gate_verilog.do" 
+ModelSim-Altera Info: # Start time: 10:54:59 on Dec 28,2018
+ModelSim-Altera Info: # Loading work.testbench
+ModelSim-Altera Info: # Loading work.controller
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_obuf
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_ibuf
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_lcell_comb
+ModelSim-Altera Info: # SDF 10.3c Compiler 2014.09 Sep 20 2014
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from controller_v.sdo
+ModelSim-Altera Info: # Loading timing data from controller_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/Lab_Controller/testbench.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Error: # ** Error: (vsim-7) Failed to open VCD file "result	.vcd" in write mode.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Invalid argument. (errno = EINVAL)    : D:/altera_project/logicDesignLab/Lab_Controller/testbench.v(13)
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /testbench
+ModelSim-Altera Info: # ** Note: $finish    : D:/altera_project/logicDesignLab/Lab_Controller/testbench.v(33)
+ModelSim-Altera Info: #    Time: 15050 ns  Iteration: 0  Instance: /testbench
+ModelSim-Altera Info: # End time: 11:54:34 on Dec 28,2018, Elapsed time: 0:59:35
+ModelSim-Altera Info: # Errors: 1, Warnings: 0
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

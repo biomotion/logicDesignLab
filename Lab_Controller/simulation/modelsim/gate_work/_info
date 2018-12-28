@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/logicDesignLab/Lab_Controller/simulation/modelsim
+vcontroller
+Z1 !s110 1545965699
+!i10b 1
+!s100 ;DLJbGBez9Wm[>kX0m8JY0
+IeBTS;GNAoI8Jc]7f77>073
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1545965680
+8controller.vo
+Fcontroller.vo
+L0 32
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1545965699.001000
+!s107 controller.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|controller.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+vtestbench
+R1
+!i10b 1
+!s100 RTiP;M7]FAemIDJmXUQe_2
+I58Fe6G?<3gN?6Y87?AIf03
+R2
+R0
+w1545965618
+8D:/altera_project/logicDesignLab/Lab_Controller/testbench.v
+FD:/altera_project/logicDesignLab/Lab_Controller/testbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1545965699.199000
+!s107 D:/altera_project/logicDesignLab/Lab_Controller/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab_Controller|D:/altera_project/logicDesignLab/Lab_Controller/testbench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab_Controller

@@ -1,0 +1,38 @@
+|controller
+clr_AF << clr_AF.DB_MAX_OUTPUT_PORT_TYPE
+incr_A << w2.DB_MAX_OUTPUT_PORT_TYPE
+set_E << set_E.DB_MAX_OUTPUT_PORT_TYPE
+set_F << flipflop:g1.port0
+clr_E << clr_E.DB_MAX_OUTPUT_PORT_TYPE
+start => w1.IN1
+start => clr_AF.IN1
+A2 => w3.IN0
+A2 => set_E.IN1
+A2 => clr_E.IN1
+A3 => w3.IN1
+clk => clk.IN2
+rst => rst.IN2
+
+
+|controller|flipflop:g0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
+|controller|flipflop:g1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
