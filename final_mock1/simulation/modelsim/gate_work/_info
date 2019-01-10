@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/altera_project/logicDesignLab/final_mock1/simulation/modelsim
+vmock1
+Z1 !s110 1547151999
+!i10b 1
+!s100 55lo0PIBmhe875a`5JlK^1
+I;9]oceejEnfbD420G1=z43
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1547151990
+8mock1.vo
+Fmock1.vo
+L0 32
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1547151999.238000
+!s107 mock1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mock1.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+vtestbench
+R1
+!i10b 1
+!s100 f5m9cJE60`g@^_jVizoX<2
+I7Hi:VAi3W2f@PXcZEeV[z3
+R2
+R0
+w1547151953
+8D:/altera_project/logicDesignLab/final_mock1/testbench.v
+FD:/altera_project/logicDesignLab/final_mock1/testbench.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1547151999.406000
+!s107 D:/altera_project/logicDesignLab/final_mock1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/final_mock1|D:/altera_project/logicDesignLab/final_mock1/testbench.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/final_mock1

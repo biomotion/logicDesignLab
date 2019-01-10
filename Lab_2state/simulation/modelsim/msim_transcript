@@ -14,30 +14,30 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab_2state {D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:31:04 on Nov 30,2018
+# Start time: 04:28:44 on Jan 11,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab_2state" D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v 
 # -- Compiling module stateMachine
 # -- Compiling module flipflop
 # 
 # Top level modules:
 # 	stateMachine
-# End time: 11:31:05 on Nov 30,2018, Elapsed time: 0:00:01
+# End time: 04:28:44 on Jan 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/Lab_2state {D:/altera_project/logicDesignLab/Lab_2state/testbench.v}
 # Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:31:05 on Nov 30,2018
+# Start time: 04:28:45 on Jan 11,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/Lab_2state" D:/altera_project/logicDesignLab/Lab_2state/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 11:31:05 on Nov 30,2018, Elapsed time: 0:00:00
+# End time: 04:28:45 on Jan 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -gui "+altera" -l msim_transcript -do "stateMachine_run_msim_rtl_verilog.do" 
-# Start time: 11:31:05 on Nov 30,2018
+# Start time: 04:28:45 on Jan 11,2019
 # Loading work.testbench
 # Loading work.stateMachine
 # Loading work.flipflop
@@ -60,5 +60,5 @@
 # Simulation Breakpoint: 1
 # Break in Module testbench at D:/altera_project/logicDesignLab/Lab_2state/testbench.v line 33
 # MACRO ./stateMachine_run_msim_rtl_verilog.do PAUSED at line 17
-# End time: 12:12:02 on Nov 30,2018, Elapsed time: 0:40:57
+# End time: 04:29:03 on Jan 11,2019, Elapsed time: 0:00:18
 # Errors: 0, Warnings: 2

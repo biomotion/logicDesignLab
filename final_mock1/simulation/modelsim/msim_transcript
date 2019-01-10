@@ -1,0 +1,66 @@
+# Reading D:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do mock1_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work gate_work 
+# Copying D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {mock1.vo}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 04:26:39 on Jan 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." mock1.vo 
+# -- Compiling module mock1
+# 
+# Top level modules:
+# 	mock1
+# End time: 04:26:39 on Jan 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/altera_project/logicDesignLab/final_mock1 {D:/altera_project/logicDesignLab/final_mock1/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 04:26:39 on Jan 11,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/altera_project/logicDesignLab/final_mock1" D:/altera_project/logicDesignLab/final_mock1/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 04:26:39 on Jan 11,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  testbench
+# vsim -gui -l msim_transcript -do "mock1_run_msim_gate_verilog.do" 
+# Start time: 04:26:39 on Jan 11,2019
+# Loading work.testbench
+# Loading work.mock1
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# SDF 10.3c Compiler 2014.09 Sep 20 2014
+# 
+# Loading instances from mock1_v.sdo
+# Loading timing data from mock1_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/altera_project/logicDesignLab/final_mock1/testbench.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/altera_project/logicDesignLab/final_mock1/testbench.v(24)
+#    Time: 900 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at D:/altera_project/logicDesignLab/final_mock1/testbench.v line 24
+# Simulation Breakpoint: 1
+# Break in Module testbench at D:/altera_project/logicDesignLab/final_mock1/testbench.v line 24
+# MACRO ./mock1_run_msim_gate_verilog.do PAUSED at line 17
+# End time: 04:28:29 on Jan 11,2019, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0

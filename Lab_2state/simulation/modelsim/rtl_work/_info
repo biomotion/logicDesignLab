@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/altera_project/logicDesignLab/Lab_2state/simulation/modelsim
 vflipflop
-Z1 !s110 1543548665
+Z1 !s110 1547152124
 !i10b 1
 !s100 JL6bMjb:h]i>99>?Q`SSK0
 I38;4j?z<gk36kNT1JGJK40
 Z2 V`JN@9S9cnhjKRR_L]QIcM3
 R0
-Z3 w1542351897
+Z3 w1545302792
 Z4 8D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v
 Z5 FD:/altera_project/logicDesignLab/Lab_2state/stateMachine.v
 L0 15
@@ -23,7 +23,7 @@ Z6 OV;L;10.3c;59
 r1
 !s85 0
 31
-Z7 !s108 1543548664.988000
+Z7 !s108 1547152124.852000
 Z8 !s107 D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab_2state|D:/altera_project/logicDesignLab/Lab_2state/stateMachine.v|
 !i113 1
@@ -52,13 +52,13 @@ R10
 R11
 nstate@machine
 vtestbench
-R1
+!s110 1547152125
 !i10b 1
 !s100 K;4@h]gfi]RM9QOefjkbF1
 IHS=9JWaO@1UIjCk3H51:71
 R2
 R0
-w1542352007
+R3
 8D:/altera_project/logicDesignLab/Lab_2state/testbench.v
 FD:/altera_project/logicDesignLab/Lab_2state/testbench.v
 L0 4
@@ -66,7 +66,7 @@ R6
 r1
 !s85 0
 31
-!s108 1543548665.104000
+!s108 1547152125.030000
 !s107 D:/altera_project/logicDesignLab/Lab_2state/testbench.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/altera_project/logicDesignLab/Lab_2state|D:/altera_project/logicDesignLab/Lab_2state/testbench.v|
 !i113 1

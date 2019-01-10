@@ -1,7 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, D:/altera_project/Lab1/carryLookahead.v
-source_file = 1, D:/altera_project/Lab1/testbench.v
-source_file = 1, D:/altera_project/Lab1/db/carryLookahead.cbx.xml
+source_file = 1, D:/altera_project/logicDesignLab/Lab1/carryLookahead.v
+source_file = 1, D:/altera_project/logicDesignLab/Lab1/testbench.v
+source_file = 1, D:/altera_project/logicDesignLab/Lab1/db/carryLookahead.cbx.xml
 design_name = carryLookahead
 instance = comp, \S[0]~output , S[0]~output, carryLookahead, 1
 instance = comp, \S[1]~output , S[1]~output, carryLookahead, 1

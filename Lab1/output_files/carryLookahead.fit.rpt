@@ -1,5 +1,5 @@
 Fitter report for carryLookahead
-Fri Oct 26 11:21:22 2018
+Fri Jan 11 04:22:18 2019
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -64,7 +64,7 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Fri Oct 26 11:21:22 2018      ;
+; Fitter Status                      ; Successful - Fri Jan 11 04:22:18 2019      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; carryLookahead                             ;
 ; Top-level Entity Name              ; carryLookahead                             ;
@@ -230,7 +230,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/altera_project/Lab1/output_files/carryLookahead.pin.
+The pin-out file can be found in D:/altera_project/logicDesignLab/Lab1/output_files/carryLookahead.pin.
 
 
 +---------------------------------------------------------------------+
@@ -988,23 +988,23 @@ Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.10 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.03 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file D:/altera_project/Lab1/output_files/carryLookahead.fit.smsg
+Info (144001): Generated suppressed messages file D:/altera_project/logicDesignLab/Lab1/output_files/carryLookahead.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5184 megabytes
-    Info: Processing ended: Fri Oct 26 11:21:23 2018
-    Info: Elapsed time: 00:00:12
+    Info: Peak virtual memory: 5152 megabytes
+    Info: Processing ended: Fri Jan 11 04:22:18 2019
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in D:/altera_project/Lab1/output_files/carryLookahead.fit.smsg.
+The suppressed messages can be found in D:/altera_project/logicDesignLab/Lab1/output_files/carryLookahead.fit.smsg.
 
 

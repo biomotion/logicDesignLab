@@ -1,0 +1,29 @@
+|mock1
+counter[0] << flipflop:cnt0.port0
+counter[1] << flipflop:cnt1.port0
+clk => clk.IN2
+rst => rst.IN2
+
+
+|mock1|flipflop:cnt0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
+|mock1|flipflop:cnt1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= g6.DB_MAX_OUTPUT_PORT_TYPE
+CLK => g2.IN1
+CLK => g3.IN0
+D => g4.IN1
+RST => g2.IN2
+RST => g4.IN2
+RST => g6.IN1
+
+
